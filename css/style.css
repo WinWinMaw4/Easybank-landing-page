@@ -76,13 +76,14 @@ header{
     display: flex !important;
     align-items: stretch !important;
     justify-content: center !important;
+    
 }
 .nav-link{
-    color: var(--Grayish-Blue);
+    color: var(--Grayish-Blue) !important;
     cursor: pointer;
 }
 .nav-link:hover{
-    color: var(--Dark-Blue);
+    color: var(--Dark-Blue) !important;
 }
 .custom-btn{
     background-image: linear-gradient(to right, var(--Lime-Green), var(--Bright-Cyan));
@@ -316,7 +317,7 @@ header{
     }
     .nav-link{
         margin: 5px 0;
-        color: var(--Dark-Blue);
+        color: var(--Dark-Blue) !important;
     }
     .nav-link:hover{
         background-color: var(--Light-Grayish-Blue);
@@ -326,6 +327,7 @@ header{
         top: 250px;
         left: 49%;
         transform: translate(-50%,-50%);
+        box-shadow: -20px 20px 100px rgba(112, 111, 111, 0.63);
     }
     .headerBtn{
         display: none !important;
@@ -336,6 +338,7 @@ header{
         background-image: url(../images/bg-intro-mobile.svg);
         background-position: right top;
         background-size: contain;
+        text-align: center;
     }
     .home-left{
         padding-left: 0px !important;
@@ -377,7 +380,7 @@ header{
     .footer-2{
         margin-top: 30px !important;
         margin-bottom: 30px !important;
-
+        text-align: center;
     }
     .footer-2>span{
         /* margin-left: 30px !important; */
